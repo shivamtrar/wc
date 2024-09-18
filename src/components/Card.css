@@ -1,0 +1,58 @@
+/* Grid container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 items per row */
+    gap: 20px; /* Space between the cards */
+    height: 20px;
+  }
+  
+  /* Each card */
+  .card-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icon styling */
+  
+  .card-img {
+    max-width: 60px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+  }
+  
+  /* Card content */
+  .card-content {
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Description styling */
+  .card-desc {
+    font-size: 0.875rem;
+    color: #000000;
+    /* line-height: 1.4; */
+  }
+  
+  /* Responsive adjustments for mobile view */
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* Switch to 2 items per row on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.main{
+    color: white;
+    background-color: #2967C4;
+    height: 81px;
+    width: 100vw;
+    display: flex;
+}
+
+.head-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-heading{
+    font-size: 35px;
+    padding-left: 20px;
+}
