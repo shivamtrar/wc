@@ -1,11 +1,12 @@
 .testimonial-container {
     background-color: #eaf3f7;
     width: 100vw;
-    height: 500px;
+    height: 600px;
     text-align: center;
     margin: 50px auto;
     position: relative;
     overflow: hidden;
+    padding-top: 30px;
     padding-left: 33%;
     padding-right: 33%;
   }
@@ -43,8 +44,8 @@
     font-size: 16px;
     line-height: 1.3;
     color: #333;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 50px;
+   }
   
   .testimonial-nav {
     display: flex;
@@ -68,10 +69,10 @@
   /* Fade transition effect */
   .fade-in {
     opacity: 1;
-    transition: opacity 0.5s ease-in;
+    transition: opacity 0.1s ease-in;
   }
   
   .fade-out {
     opacity: 0;
-    transition: opacity 0.5s ease-out;
+    transition: opacity 0.1s ease-out;
   }

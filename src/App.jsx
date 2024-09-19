@@ -1,22 +1,27 @@
-import { useState } from 'react'
-import './App.css'
-
-import Navbar from './components/Navbar'
-import Main from './components/Main'
-import Testimonials from './components/Testimonials'
-import Chat from './components/Chat'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfUse from './pages/TermsOfUse';
+import SubsPolicy from './pages/SubsPolicy';
+import ContactUs from './pages/ContactUs';
+import CustomerService from './pages/CustomerService';
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <Main/>
-      <Testimonials/>
-      <Chat/>
-      <Footer/>
-    </div>
-  )
+    
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/about-us' element={<AboutUs/>}/>
+        <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+        <Route path='/terms-of-use' element={<TermsOfUse/>}/>
+        <Route path='/subscription-policy' element={<SubsPolicy/>}/>
+        <Route path='/contact-us' element={<ContactUs/>}/>
+        <Route path="/customer-service" component={<CustomerService/>} />
+      </Routes>
+
+  );
 }
 
-export default App
+export default App;

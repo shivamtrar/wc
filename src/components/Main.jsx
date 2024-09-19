@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css'
 import Card from './Card'
+import { Link } from 'react-router-dom';
 
 const Main = (props) => {
   return (
@@ -18,13 +19,16 @@ const Main = (props) => {
         </div>
 
         <div className='appointment'>
-          <div>
+        <div>
+          {/* Link to ContactUs page */}
+          <Link to="/contact" style={{ textDecoration: 'none', color: 'inherit' }}>
             <h2>Book your Appointment</h2>
-          </div>
-          <div>
-            <h2>Ask an Experts</h2>
-          </div>
+          </Link>
         </div>
+        <div>
+          <h2>Ask an Experts</h2>
+        </div>
+      </div>
 
         <div className='repair'>
           <div className='content-repair'>
@@ -40,13 +44,16 @@ const Main = (props) => {
         </div>
 
         <div className='appointment'>
-          <div>
+        <div>
+          {/* Link to ContactUs page */}
+          <Link to="/contact" style={{ textDecoration: 'none', color: 'inherit' }}>
             <h2>Book your Appointment</h2>
-          </div>
-          <div>
-            <h2>Ask an Experts</h2>
-          </div>
+          </Link>
         </div>
+        <div>
+          <h2>Ask an Experts</h2>
+        </div>
+      </div>
 
         <div className='repair'>
           <div className='content-repair'>

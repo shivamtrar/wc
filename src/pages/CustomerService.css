@@ -1,0 +1,87 @@
+.customer-service-page {
+    background-image: url('../assets/cust.jpeg'); /* Path to the background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* White background with some transparency */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #003366;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .line {
+    width: 60px;
+    height: 4px;
+    background-color: #f9c33b;
+    margin: 20px auto;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .care-message {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .chat-now-btn {
+    background-color: #f9c33b;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  
+  .chat-now-btn:hover {
+    background-color: #e0ac2d;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #333;
+  }
+  
+  .steps p {
+    margin: 0 10px;
+  }
+  
+  .steps span {
+    color: green;
+    font-size: 1.5rem;
+  }
+  
