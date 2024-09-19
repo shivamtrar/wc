@@ -19,7 +19,7 @@ const testimonials = [
     name: 'Sarah Lee',
     jobTitle: 'Marketing Director',
     rating: 3,
-    text: "I've relied on Geek Tech Care for all my tech needs, from computer repairs to smart home installations, and they've never disappointed. Their team is reliable, knowledgeable, and always goes the extra mile to ensure customer satisfaction. I wouldn't trust anyone else with my devices!"  },
+    text: "I've relied on Geek Tech Care for all my tech needs, from computer repairs to smart home installations, and they've never disappointed. Their team is reliable, knowledgeable, and always goes the extra mile to ensure customer satisfaction. "  },
   {
     name: 'David Johnson',
     jobTitle: 'Business Owner',
